@@ -5,10 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
 }
-body{
-	height: 100vh;
-}
+
 header
 {
   position: absolute;
@@ -44,8 +43,9 @@ header .logo
   filter: brightness(0) invert(1);
   background-repeat: no-repeat;
   background-size: 25px;
-  background-position: center;
+  background-position: right;
   cursor: pointer;
+  
 }
 .showcase
 {
@@ -154,6 +154,7 @@ header .logo
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s;
+
 }
 .social li a img{
 	height: 64px;
@@ -218,9 +219,7 @@ header .logo
 	width: 50px;}
 
    .social{
-   	bottom: 65px;
+   	bottom: 7px;
 	}
-    
+
 }
-
-
