@@ -191,7 +191,7 @@ header .logo
   color: #03a9f4; 
 }
 
-@media (max-width: 700px)
+@media only screen and (max-width: 700px)
 {
   .showcase,
   .showcase header
@@ -205,12 +205,17 @@ header .logo
   .text h3
   {
     font-size: 2em;
-  }
-  .text p{
-    font-size: 1em;	  
 
   }
+  .text p{
+  	font-size: 0.9em;
+  }
   .social li a img{
-    height: 50px;
-    width: 50px;	
+	height: 50px;
+	width: 50px;}
+
+   .social{
+   	bottom: 7px;
+	}
+
 }
