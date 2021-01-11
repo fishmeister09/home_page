@@ -219,3 +219,10 @@ header .logo
 	}
 
 }
+
+@media only screen and (max-height: 550px){
+	.text a{
+		padding: 7px 25px;
+	}
+
+}
